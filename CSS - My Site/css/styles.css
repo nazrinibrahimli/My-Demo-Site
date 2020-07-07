@@ -1,0 +1,179 @@
+body{
+  margin: 0; /*all four sides with 0 edges*/
+
+  text-align: center; /*center everything in body if it doesn not have argin*/
+font-family: 'Merriweather', serif;/* mono,ans-serif, serif istifade ele ancag */
+
+color: #40514E;
+background-color: #FFFAFA;
+
+
+}
+/*img:hover{
+  background-color: powderblue;
+
+}
+*/
+p{
+  line-height: 2;
+  /*alll pharagpraphs will have double line hihg*/
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+h1{
+font-family: 'Sacramento', cursive;
+font-size: 5.16rem; /*16px=1em 100% 16px-e beraaberdir  , percentage dynamic font-sizedir, eger kimse site-a girib preferenceden size-i deyisse large elese percentage isletdiyine gore large olacag bu da*/
+  color: #66BFBF;
+  /*width: 15%;*/
+line-height: 2;
+  margin: 50 auto 0 auto; /*but here does not matter you have width, it still center */
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  padding-bottom: : 10px;
+}
+h3{
+color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+/* burda butun divlere uygulayir, amma asagida classlara ayri ayri
+div{
+  background-color: #E4F9F5
+}
+*/
+.top{
+  background-color:  #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+
+}
+.topcloud{
+position: absolute;
+right: 18.75rem;
+top: 2.5rem;
+}
+.bottomcloud{
+  position: absolute;
+  left: 15.62rem;
+  bottom: 18.75rem;
+}
+.pro{
+  text-decoration: underline;
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+text-align: left; /*left terefe gonderirik*/
+line-height: 2; /*burda px em falan hecne olmur*/
+  margin: 100px auto; /*centere getirir bu hisseni*/
+}
+.art{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.tele{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*.des{
+clear: left;
+clear is antifloat
+}
+.dess{
+  clear:right;
+} oyrenmek ucun id bu*/
+
+
+.middle-container{
+  margin: 100px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.cm{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyr{
+  color: #EAF6F6;
+  /*font-size: 0.75rem;*/
+  padding: 20px 0;
+}
+
+.btn {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.nike{
+  padding-top: 100px;
+  weight: 100%;
+  height: 830px;
+}
